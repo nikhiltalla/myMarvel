@@ -1,0 +1,109 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    background-color:black;
+    padding: -10px;
+}
+header h1{ 
+    text-shadow: rgb(241, 5, 5);
+   padding-top: 38px;
+   font-style: italic;
+
+    padding-right: 10px;
+    text-align: right;
+    color:rgb(6, 29, 243)
+}
+header{
+  
+    /* top: -100px; */
+    overflow: auto;
+   margin: auto;
+   background-image: url("photos/tony.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: center;
+   padding: 0%;
+   height:800px ;
+   /* padding: 20px; */
+    text-transform: uppercase;
+   
+   top:-20px;
+}
+header a{
+    font-size: 30px;
+    /* background-color: rgb(7, 0, 0); */
+   color: rgb(243, 9, 9);
+    text-decoration: none;
+    margin-top: 400px;
+
+}
+header nav{
+    text-align: center;
+ 
+}
+
+ul{
+  
+    list-style: none;
+ 
+}
+li{ 
+  
+   background:none;
+    display: flex;
+    margin: 20px;
+     display: inline-block;
+    padding: 10px;
+}
+
+a.ah:hover{
+    background-color:black;
+    color: blueviolet;
+}
+
+header .logo a{
+    width: 300px;
+    height: 120px;
+    display: inline-block;
+    position: relative;
+    text-indent: -999999px;
+    top:-40px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-image: url("photos/marvel.png");
+}
+h2{
+    
+    color: red;
+    text-transform: uppercase;
+  /* font-color: */
+}
+section{
+   
+    display: flex;
+    background: 100%;
+}
+section figure{
+    text-align: center;
+    background-color: black;
+    text-transform: uppercase;
+}
+section figure img{
+    width: 300px;
+    height: 300px;
+}
+
+a.ha:hover{
+    background-color: red;
+   
+}
+
+footer{
+    top:15px;
+    position: relative;
+   background-color: red;
+    font-size: 20px;
+      text-align: center;
+}
